@@ -1,0 +1,291 @@
+/*home page*/
+#head{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 500%;
+}
+/*footer*/
+.foot{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    height: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    bottom: 0;
+
+
+}
+#active{
+    color: white;
+    font-size: larger;
+}
+.menu{
+    height: 60px;
+    width: 100%;
+    background-color: #d2a33d;
+    text-align: center;
+    font-size: large;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-inline: 20px;
+    padding: 20px 0 10px 0;
+}
+
+.menu a:hover{
+    color: white;
+    font-size: larger;
+}
+
+.cart-img {
+    position: absolute; /* Position the image absolutely */
+    top: 6.5%; /* Align the top of the image to the middle of the container */
+    right: 180px; /* Adjust the right position as needed */
+    transform: translateY(-50%); /* Center the image vertically */
+}
+.flag-img{
+    position: absolute;
+    top: 5.5%;
+    right: 130px;
+    transform: translateY(-10%);
+}
+.naira{
+    margin-right: 50px;
+    margin-top: 2%;
+    float: right;
+}
+/*SERVICE SECTION*/
+.service_section {
+    position: relative;
+    background-color: white;
+}
+.footer_service{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    height: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    bottom: 0px;
+    }
+
+
+.service{
+    /* Clearfix to contain floated elements */
+    overflow: hidden;
+}
+.heading_container{
+    text-align: center;
+    font-size: 150%;
+    font-family: Calibri;
+    padding-top: 60px;
+}
+.txt{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 100%;
+}
+
+.box {
+    float: left;
+    width: calc(30% - 20px); /* Adjust width as needed */
+    height: 300px;
+    margin: 10px;
+    background-color: #f8f8f9;
+    padding: 20px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.img-box img {
+    max-width: 25%;
+    max-height: 25%;
+    transition: all 0.3s;
+}
+
+.detail-box h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 125%;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+/*womenspage*/
+#whead{
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 200%;
+    font-style: italic;
+}
+#note{
+    text-align: center;
+    font-style: normal;
+}
+.button-container{
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    line-height: 31px;
+    padding: 0px 15px;
+    background-color: #11373a;
+    color: white;
+    border-radius: 5px;
+    border-radius: 5px; /* Rounded edges */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition */
+        /* Adding cursor pointer to indicate it's clickable */
+    cursor: pointer;
+    font-family: SansSerif;
+    font-size: 110%;
+    border: #11373a;
+    float: right;
+    margin-right: 450px;
+
+
+    }
+
+    /* Hover effect */
+.button:hover {
+        background-color: #35737e; /* Different color on hover */
+    }
+
+    /* Click effect */
+.button:active {
+        background-color: #5dc8da; /* Different color when clicked */
+    }
+
+
+/*menspage*/
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-left: 450px;
+}
+#shop{
+    height: 30px;
+}
+
+/*kaftanpagemen*/
+#kaftans{
+    text-align: center;
+}
+#price{
+    text-align: end;
+}
+.roll1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.roll1 img{
+    max-width: 30%;
+    max-height: 30%;
+
+}
+
+.roll2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.roll2 img{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+
+
+input[type=text]{
+    padding: 10px;
+}
+input[type=password]{
+    padding: 10px;
+}
+
+input[type=button]{
+    width: 15%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.dresses img{
+    float: left;
+    width: 35%;
+    height: 500px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+
+}
+.price{
+    float: left;
+    padding-left: 80px;
+    padding-right: 215px;
+}
+.price{
+    color: black;
+    text-align: center;
+
+}
+.button-container{
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    line-height: 31px;
+    padding: 0px 15px;
+    background-color: #0d8813;
+    color: white;
+    border-radius: 5px;
+    border-radius: 5px; /* Rounded edges */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    /* Adding cursor pointer to indicate it's clickable */
+    cursor: pointer;
+    font-family: SansSerif;
+    font-size: 110%;
+    border: #0f4f08;
+    float: right;
+    margin-right: 465px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #63e755; /* Different color on hover */
+}
+
+/* Click effect */
+.button:active {
+    background-color: #154419; /* Different color when clicked */
+}
+
+
